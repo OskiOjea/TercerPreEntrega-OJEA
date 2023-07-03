@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Hungry|Hamburguesas Nivel Dios </title>
+</head>
+<body>
+    <header>
+        <h1 id="logo" >Hungry</h1><br>
+        <h2 >Hamburguesas nivel Dios !!</h2>
+    </header>
+<video muted autoplay loop>
+    <source src="../img/fuego.mp4" type="video/mp4">
+       </video>
+    
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Magnun</span>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <img src="../img/combo4.jpg" alt="" class="img-item">
+                <span class="precio-item">$2.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Doble H</span>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <img src="../img/combo1.jpg" alt="" class="img-item">
+                <span class="precio-item">$2.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Hot x 4</span>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <img src="../img/hotdog.jpg" alt="" class="img-item">
+                <span class="precio-item">$1.800</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Combo 1</span>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <img src="../img/combo3.jpg" alt="" class="img-item">
+                <span class="precio-item">$2.200</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Combo 5</span>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <img src="../img/combo5.jpg" alt="" class="img-item">
+                <span class="precio-item">$3.200</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Cerveza</span>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <img src="../img/beer.jpg" alt="" class="img-item">
+                <span class="precio-item">$800</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Gaseosa</span>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <img src="../img/coke1.jpg" alt="" class="img-item">
+                <span class="precio-item">$400</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Mr Frietes</span>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <img src="../img/frites1.jpg" alt="" class="img-item">
+                <span class="precio-item">$900</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Panchitos</span>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <img src="../img/hotdog.jpg" alt="" class="img-item">
+                <span class="precio-item">$1.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>    
+
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2 class="header-carrito-texto">Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Footer -->
+<div class="container-fluid  text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Compania</h4>
+                <a class="btn btn-link" href="">Nosotros</a>
+                <a class="btn btn-link" href="">Contacto</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Direccion</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Calle 1234, CABA, ARG</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>011 345 67890</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Abrimos</h4>
+                <h5 class="text-light fw-normal">Lunes - Domingo</h5>
+                <p>12AM - 01PM</p>
+                <h5 class="text-light fw-normal">Domingos</h5>
+                <p>12AM - 11PM</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Ofertas</h4>
+                <p>Suscribite y recibi cupones de descuentos !!!</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Su mail">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Hungry</a>, Todos los derechos reservados. 
+                    
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="../index.html">Home</a>
+                        <a href="">Cookies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<script src="../js/app.js" async></script>
+</body>
+</html>
